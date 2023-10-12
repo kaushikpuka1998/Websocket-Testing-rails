@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
+  helper PagesHelper
+
   def home
   end
 
